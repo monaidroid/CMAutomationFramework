@@ -1,0 +1,1506 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">42 methods,   42 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyAddBtnFunctionality">verifyAddBtnFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifyBackgroundImg">verifyBackgroundImg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" class="method navigator-link" hash-for-method="verifyBackgroundImg">verifyBackgroundImg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCloseBtnElement">verifyCloseBtnElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCmpDetailsAllButtonsElements">verifyCmpDetailsAllButtonsElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCmpDetailsAllTabElements">verifyCmpDetailsAllTabElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCmpDetailsLegendsElements">verifyCmpDetailsLegendsElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCmpListAllButtonsElement">verifyCmpListAllButtonsElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCmpListPageCaption">verifyCmpListPageCaption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCmpListPageSizeElement">verifyCmpListPageSizeElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCmpListTableContent">verifyCmpListTableContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCmpListTableHeader">verifyCmpListTableHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCmpListTotalPages">verifyCmpListTotalPages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" class="method navigator-link" hash-for-method="verifyCmpLogoImg">verifyCmpLogoImg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifyCmpLogoImg">verifyCmpLogoImg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyDeleteBtnFunctionality">verifyDeleteBtnFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyEditBtnFunctionality">verifyEditBtnFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifyForgetPWDLink">verifyForgetPWDLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifyForgotPWDLinkEnable">verifyForgotPWDLinkEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifyForgotPWDLinkFunctionality">verifyForgotPWDLinkFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifyLoginFunctionality(mp, mp)">verifyLoginFunctionality(mp, mp)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifyLoginFunctionality(pc, 123)">verifyLoginFunctionality(pc, 123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" class="method navigator-link" hash-for-method="verifyLoginLink">verifyLoginLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" class="method navigator-link" hash-for-method="verifyLoginLinkEnable">verifyLoginLinkEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifyLoginPageCaption">verifyLoginPageCaption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifyLoginPageTitle">verifyLoginPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" class="method navigator-link" hash-for-method="verifyLoginText">verifyLoginText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyLogoutElement">verifyLogoutElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyLogoutFunctionality">verifyLogoutFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" class="method navigator-link" hash-for-method="verifyRegisterFunctionality(pqr, pqr, pqr, pqr@test.com, 9999999990)">verifyRegisterFunctionality(pqr, pqr, pqr, pqr@test.com, 9999999990)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" class="method navigator-link" hash-for-method="verifyRegisterFunctionality(mona, mp1, mp1, mp@gmail.com, 9887665443)">verifyRegisterFunctionality(mona, mp1, mp1, mp@gmail.com, 9887665443)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" class="method navigator-link" hash-for-method="verifyRegisterFunctionality(abc, abc, abc, abc@test.com, 9876543210)">verifyRegisterFunctionality(abc, abc, abc, abc@test.com, 9876543210)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifySearchElement">verifySearchElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifySignUPLinkFunctionality">verifySignUPLinkFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifySignUPText">verifySignUPText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifySignUpLink">verifySignUpLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifySignUpLinkEnable">verifySignUpLinkEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" class="method navigator-link" hash-for-method="verifySignUpPageCaption">verifySignUpPageCaption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyTimeLeftElement">verifyTimeLeftElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyUserNameElement">verifyUserNameElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifytoAddNewCompanyDetailsFunctionality(3, TestCmp1, TC1, TCRH1, TCRH12)">verifytoAddNewCompanyDetailsFunctionality(3, TestCmp1, TC1, TCRH1, TCRH12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifytoAddNewCompanyDetailsFunctionality(4, TestCmp2, TC2, TCRH2, TCRH22)">verifytoAddNewCompanyDetailsFunctionality(4, TestCmp2, TC2, TCRH2, TCRH22)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBackgroundImg">
+                  </a> <!-- verifyBackgroundImg -->
+                  <span class="method-name">verifyBackgroundImg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpLogoImg">
+                  </a> <!-- verifyCmpLogoImg -->
+                  <span class="method-name">verifyCmpLogoImg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForgetPWDLink">
+                  </a> <!-- verifyForgetPWDLink -->
+                  <span class="method-name">verifyForgetPWDLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForgotPWDLinkEnable">
+                  </a> <!-- verifyForgotPWDLinkEnable -->
+                  <span class="method-name">verifyForgotPWDLinkEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForgotPWDLinkFunctionality">
+                  </a> <!-- verifyForgotPWDLinkFunctionality -->
+                  <span class="method-name">verifyForgotPWDLinkFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginFunctionality(mp, mp)">
+                  </a> <!-- verifyLoginFunctionality(mp, mp) -->
+                  <span class="method-name">verifyLoginFunctionality</span>
+                  <span class="parameters">(mp, mp)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginFunctionality(pc, 123)">
+                  </a> <!-- verifyLoginFunctionality(pc, 123) -->
+                  <span class="method-name">verifyLoginFunctionality</span>
+                  <span class="parameters">(pc, 123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginPageCaption">
+                  </a> <!-- verifyLoginPageCaption -->
+                  <span class="method-name">verifyLoginPageCaption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginPageTitle">
+                  </a> <!-- verifyLoginPageTitle -->
+                  <span class="method-name">verifyLoginPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignUPLinkFunctionality">
+                  </a> <!-- verifySignUPLinkFunctionality -->
+                  <span class="method-name">verifySignUPLinkFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignUPText">
+                  </a> <!-- verifySignUPText -->
+                  <span class="method-name">verifySignUPText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignUpLink">
+                  </a> <!-- verifySignUpLink -->
+                  <span class="method-name">verifySignUpLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignUpLinkEnable">
+                  </a> <!-- verifySignUpLinkEnable -->
+                  <span class="method-name">verifySignUpLinkEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddBtnFunctionality">
+                  </a> <!-- verifyAddBtnFunctionality -->
+                  <span class="method-name">verifyAddBtnFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCloseBtnElement">
+                  </a> <!-- verifyCloseBtnElement -->
+                  <span class="method-name">verifyCloseBtnElement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpDetailsAllButtonsElements">
+                  </a> <!-- verifyCmpDetailsAllButtonsElements -->
+                  <span class="method-name">verifyCmpDetailsAllButtonsElements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpDetailsAllTabElements">
+                  </a> <!-- verifyCmpDetailsAllTabElements -->
+                  <span class="method-name">verifyCmpDetailsAllTabElements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpDetailsLegendsElements">
+                  </a> <!-- verifyCmpDetailsLegendsElements -->
+                  <span class="method-name">verifyCmpDetailsLegendsElements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpListAllButtonsElement">
+                  </a> <!-- verifyCmpListAllButtonsElement -->
+                  <span class="method-name">verifyCmpListAllButtonsElement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpListPageCaption">
+                  </a> <!-- verifyCmpListPageCaption -->
+                  <span class="method-name">verifyCmpListPageCaption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpListPageSizeElement">
+                  </a> <!-- verifyCmpListPageSizeElement -->
+                  <span class="method-name">verifyCmpListPageSizeElement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpListTableContent">
+                  </a> <!-- verifyCmpListTableContent -->
+                  <span class="method-name">verifyCmpListTableContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpListTableHeader">
+                  </a> <!-- verifyCmpListTableHeader -->
+                  <span class="method-name">verifyCmpListTableHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpListTotalPages">
+                  </a> <!-- verifyCmpListTotalPages -->
+                  <span class="method-name">verifyCmpListTotalPages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDeleteBtnFunctionality">
+                  </a> <!-- verifyDeleteBtnFunctionality -->
+                  <span class="method-name">verifyDeleteBtnFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEditBtnFunctionality">
+                  </a> <!-- verifyEditBtnFunctionality -->
+                  <span class="method-name">verifyEditBtnFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoutElement">
+                  </a> <!-- verifyLogoutElement -->
+                  <span class="method-name">verifyLogoutElement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoutFunctionality">
+                  </a> <!-- verifyLogoutFunctionality -->
+                  <span class="method-name">verifyLogoutFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchElement">
+                  </a> <!-- verifySearchElement -->
+                  <span class="method-name">verifySearchElement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTimeLeftElement">
+                  </a> <!-- verifyTimeLeftElement -->
+                  <span class="method-name">verifyTimeLeftElement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserNameElement">
+                  </a> <!-- verifyUserNameElement -->
+                  <span class="method-name">verifyUserNameElement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytoAddNewCompanyDetailsFunctionality(3, TestCmp1, TC1, TCRH1, TCRH12)">
+                  </a> <!-- verifytoAddNewCompanyDetailsFunctionality(3, TestCmp1, TC1, TCRH1, TCRH12) -->
+                  <span class="method-name">verifytoAddNewCompanyDetailsFunctionality</span>
+                  <span class="parameters">(3, TestCmp1, TC1, TCRH1, TCRH12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytoAddNewCompanyDetailsFunctionality(4, TestCmp2, TC2, TCRH2, TCRH22)">
+                  </a> <!-- verifytoAddNewCompanyDetailsFunctionality(4, TestCmp2, TC2, TCRH2, TCRH22) -->
+                  <span class="method-name">verifytoAddNewCompanyDetailsFunctionality</span>
+                  <span class="parameters">(4, TestCmp2, TC2, TCRH2, TCRH22)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cloudmiracle.qa.testcases.SignUpPageTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBackgroundImg">
+                  </a> <!-- verifyBackgroundImg -->
+                  <span class="method-name">verifyBackgroundImg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpLogoImg">
+                  </a> <!-- verifyCmpLogoImg -->
+                  <span class="method-name">verifyCmpLogoImg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginLink">
+                  </a> <!-- verifyLoginLink -->
+                  <span class="method-name">verifyLoginLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginLinkEnable">
+                  </a> <!-- verifyLoginLinkEnable -->
+                  <span class="method-name">verifyLoginLinkEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginText">
+                  </a> <!-- verifyLoginText -->
+                  <span class="method-name">verifyLoginText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterFunctionality(pqr, pqr, pqr, pqr@test.com, 9999999990)">
+                  </a> <!-- verifyRegisterFunctionality(pqr, pqr, pqr, pqr@test.com, 9999999990) -->
+                  <span class="method-name">verifyRegisterFunctionality</span>
+                  <span class="parameters">(pqr, pqr, pqr, pqr@test.com, 9999999990)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterFunctionality(mona, mp1, mp1, mp@gmail.com, 9887665443)">
+                  </a> <!-- verifyRegisterFunctionality(mona, mp1, mp1, mp@gmail.com, 9887665443) -->
+                  <span class="method-name">verifyRegisterFunctionality</span>
+                  <span class="parameters">(mona, mp1, mp1, mp@gmail.com, 9887665443)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterFunctionality(abc, abc, abc, abc@test.com, 9876543210)">
+                  </a> <!-- verifyRegisterFunctionality(abc, abc, abc, abc@test.com, 9876543210) -->
+                  <span class="method-name">verifyRegisterFunctionality</span>
+                  <span class="parameters">(abc, abc, abc, abc@test.com, 9876543210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignUpPageCaption">
+                  </a> <!-- verifySignUpPageCaption -->
+                  <span class="method-name">verifySignUpPageCaption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/mona/eclipse/SeleniumPactice/CMAutomationFramework/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.cloudmiracle.qa.extentreportlisteners.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.cloudmiracle.qa.testcases.SignUpPageTestCases&quot;/&gt;
+      &lt;class name=&quot;com.cloudmiracle.qa.testcases.LoginPageTestcases&quot;/&gt;
+      &lt;class name=&quot;com.cloudmiracle.qa.testcases.CompanyListPageTestcases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(42);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyCmpListPageSizeElement')
+data.setCell(0, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(0, 3, 17702);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyEditBtnFunctionality')
+data.setCell(1, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(1, 3, 17082);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifytoAddNewCompanyDetailsFunctionality')
+data.setCell(2, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(2, 3, 16975);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifytoAddNewCompanyDetailsFunctionality')
+data.setCell(3, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(3, 3, 16940);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyCmpDetailsAllTabElements')
+data.setCell(4, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(4, 3, 16557);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyCmpListTableContent')
+data.setCell(5, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(5, 3, 16287);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyCloseBtnElement')
+data.setCell(6, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(6, 3, 15965);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyAddBtnFunctionality')
+data.setCell(7, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(7, 3, 15923);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyCmpDetailsAllButtonsElements')
+data.setCell(8, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(8, 3, 15908);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyCmpDetailsLegendsElements')
+data.setCell(9, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(9, 3, 15813);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyDeleteBtnFunctionality')
+data.setCell(10, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(10, 3, 15303);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyCmpListTotalPages')
+data.setCell(11, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(11, 3, 14602);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyCmpListAllButtonsElement')
+data.setCell(12, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(12, 3, 14386);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyUserNameElement')
+data.setCell(13, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(13, 3, 14025);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifySearchElement')
+data.setCell(14, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(14, 3, 13911);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyCmpListTableHeader')
+data.setCell(15, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(15, 3, 13772);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyCmpListPageCaption')
+data.setCell(16, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(16, 3, 13482);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyLogoutElement')
+data.setCell(17, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(17, 3, 4035);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyLogoutFunctionality')
+data.setCell(18, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(18, 3, 3992);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyTimeLeftElement')
+data.setCell(19, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(19, 3, 3394);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifySignUPLinkFunctionality')
+data.setCell(20, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(20, 3, 3081);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyRegisterFunctionality')
+data.setCell(21, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
+data.setCell(21, 3, 1520);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyRegisterFunctionality')
+data.setCell(22, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
+data.setCell(22, 3, 1448);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyRegisterFunctionality')
+data.setCell(23, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
+data.setCell(23, 3, 1432);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyLoginFunctionality')
+data.setCell(24, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(24, 3, 1229);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyLoginFunctionality')
+data.setCell(25, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(25, 3, 1118);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyForgotPWDLinkFunctionality')
+data.setCell(26, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(26, 3, 841);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyCmpLogoImg')
+data.setCell(27, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
+data.setCell(27, 3, 55);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifySignUpLink')
+data.setCell(28, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(28, 3, 42);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifySignUPText')
+data.setCell(29, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(29, 3, 37);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyBackgroundImg')
+data.setCell(30, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(30, 3, 36);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyCmpLogoImg')
+data.setCell(31, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(31, 3, 36);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifyForgetPWDLink')
+data.setCell(32, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(32, 3, 35);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'verifyBackgroundImg')
+data.setCell(33, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
+data.setCell(33, 3, 33);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verifyLoginLink')
+data.setCell(34, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
+data.setCell(34, 3, 31);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'verifyLoginPageCaption')
+data.setCell(35, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(35, 3, 30);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'verifySignUpLinkEnable')
+data.setCell(36, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(36, 3, 29);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'verifyForgotPWDLinkEnable')
+data.setCell(37, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(37, 3, 27);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'verifySignUpPageCaption')
+data.setCell(38, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
+data.setCell(38, 3, 26);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'verifyLoginText')
+data.setCell(39, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
+data.setCell(39, 3, 23);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'verifyLoginPageTitle')
+data.setCell(40, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(40, 3, 21);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'verifyLoginLinkEnable')
+data.setCell(41, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
+data.setCell(41, 3, 20);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.SignUpPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCmpLogoImg</span>
+                <span class="method-start">9936 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9991 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">10099 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginPageTitle</span>
+                <span class="method-start">16779 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16800 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">16888 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTimeLeftElement</span>
+                <span class="method-start">23552 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26946 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.SignUpPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">27088 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBackgroundImg</span>
+                <span class="method-start">35707 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35740 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">35837 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCmpLogoImg</span>
+                <span class="method-start">41620 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41656 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">41753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserNameElement</span>
+                <span class="method-start">48960 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62986 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.SignUpPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">63131 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySignUpPageCaption</span>
+                <span class="method-start">79838 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">79864 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">79966 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBackgroundImg</span>
+                <span class="method-start">85566 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">85603 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">85687 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogoutElement</span>
+                <span class="method-start">92742 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">96777 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.SignUpPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">96919 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginLink</span>
+                <span class="method-start">105759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">105790 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">105880 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginPageCaption</span>
+                <span class="method-start">111342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">111373 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">111469 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCmpListPageCaption</span>
+                <span class="method-start">118700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">132183 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.SignUpPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">132333 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginLinkEnable</span>
+                <span class="method-start">140960 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">140980 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">141117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySignUpLink</span>
+                <span class="method-start">146980 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">147022 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">147155 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchElement</span>
+                <span class="method-start">154435 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">168347 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.SignUpPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">168490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginText</span>
+                <span class="method-start">177310 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">177333 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">177437 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySignUpLinkEnable</span>
+                <span class="method-start">183283 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">183312 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">183396 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCmpListTableHeader</span>
+                <span class="method-start">190322 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">204094 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.SignUpPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">205073 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterFunctionality(abc, abc, abc, abc@test.com, 9876543210)</span>
+                <span class="method-start">213909 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">215430 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">215527 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterFunctionality(pqr, pqr, pqr, pqr@test.com, 9999999990)</span>
+                <span class="method-start">224628 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">226076 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">226212 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterFunctionality(mona, mp1, mp1, mp@gmail.com, 9887665443)</span>
+                <span class="method-start">234850 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">236282 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">236417 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySignUPText</span>
+                <span class="method-start">242068 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">242105 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">242216 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCmpListTableContent</span>
+                <span class="method-start">249538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">265826 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">265940 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySignUPLinkFunctionality</span>
+                <span class="method-start">271989 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">275070 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">275156 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCmpListPageSizeElement</span>
+                <span class="method-start">283264 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">300966 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">301101 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyForgetPWDLink</span>
+                <span class="method-start">306860 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">306895 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">306980 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCmpListTotalPages</span>
+                <span class="method-start">313885 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">328488 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">328591 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyForgotPWDLinkEnable</span>
+                <span class="method-start">335207 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">335234 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">335324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCmpListAllButtonsElement</span>
+                <span class="method-start">341805 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">356191 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">356289 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyForgotPWDLinkFunctionality</span>
+                <span class="method-start">362148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">362990 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">363073 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddBtnFunctionality</span>
+                <span class="method-start">370073 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">385996 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">386183 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginFunctionality(mp, mp)</span>
+                <span class="method-start">392106 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">393335 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">393423 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginFunctionality(pc, 123)</span>
+                <span class="method-start">399193 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">400311 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">400400 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEditBtnFunctionality</span>
+                <span class="method-start">407678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">424760 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">424860 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDeleteBtnFunctionality</span>
+                <span class="method-start">432214 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">447518 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">447623 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCmpDetailsAllTabElements</span>
+                <span class="method-start">454514 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">471071 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">471167 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCmpDetailsLegendsElements</span>
+                <span class="method-start">477674 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">493487 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">493594 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCmpDetailsAllButtonsElements</span>
+                <span class="method-start">500509 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">516417 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">516557 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCloseBtnElement</span>
+                <span class="method-start">523909 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">539874 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">540039 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifytoAddNewCompanyDetailsFunctionality(3, TestCmp1, TC1, TCRH1, TCRH12)</span>
+                <span class="method-start">546763 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">563738 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">563835 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifytoAddNewCompanyDetailsFunctionality(4, TestCmp2, TC2, TCRH2, TCRH22)</span>
+                <span class="method-start">570949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">587889 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">587994 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogoutFunctionality</span>
+                <span class="method-start">594638 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">598630 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

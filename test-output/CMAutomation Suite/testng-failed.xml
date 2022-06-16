@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CMAutomation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CMAutomation Test(failed)">
+    <classes>
+      <class name="com.cloudmiracle.qa.testcases.CompanyListPageTestcases">
+        <methods>
+          <include name="verifytoAddNewCompanyDetailsFunctionality" invocation-numbers="1"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.cloudmiracle.qa.testcases.CompanyListPageTestcases -->
+    </classes>
+  </test> <!-- CMAutomation Test(failed) -->
+</suite> <!-- Failed suite [CMAutomation Suite] -->

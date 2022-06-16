@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="602.562" tests="42" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mona/eclipse/SeleniumPactice/CMAutomationFramework/target/test-classes:/Users/mona/eclipse/SeleniumPactice/CMAutomationFramework/target/classes:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/mona/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/mona/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mona/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/mona/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mona/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/mona/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/mona/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/mona/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/mona/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/mona/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/mona/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/mona/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/mona/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/mona/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/mona/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/Users/mona/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/Users/mona/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/mona/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/mona/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/mona/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/mona/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/mona/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/mona/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/mona/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/mona/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/mona/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/mona/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/mona/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/mona/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/mona/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/mona/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/mona/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/mona/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Users/mona/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.2.v20210201-0955/jre/lib"/>
+    <property name="sun.java.command" value="/Users/mona/eclipse/SeleniumPactice/CMAutomationFramework/target/surefire/surefirebooter17935703842533057654.jar /Users/mona/eclipse/SeleniumPactice/CMAutomationFramework/target/surefire 2022-06-15T12-53-41_828-jvmRun1 surefire3515626028269196133tmp surefire_0698556831779935334tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/mona/eclipse/SeleniumPactice/CMAutomationFramework/target/test-classes:/Users/mona/eclipse/SeleniumPactice/CMAutomationFramework/target/classes:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/mona/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/mona/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mona/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/mona/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mona/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/mona/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/mona/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/mona/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/mona/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/mona/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/mona/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/mona/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/mona/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/mona/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/mona/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/Users/mona/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/Users/mona/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/mona/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/mona/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/mona/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/mona/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/mona/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/mona/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/mona/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/mona/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/mona/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/mona/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/mona/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/mona/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/mona/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/mona/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/mona/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/mona/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mona"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/Users/mona/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.2.v20210201-0955/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/mona/eclipse/SeleniumPactice/CMAutomationFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/mona/eclipse/SeleniumPactice/CMAutomationFramework/target/surefire/surefirebooter17935703842533057654.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="mona"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.12.4"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/mona/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/nc/n48rv_690fxfd1k_96p3vslm0000gn/T/"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="/Users/mona/eclipse/SeleniumPactice/CMAutomationFramework"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/mona/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="Webdriver.chrome.driver" value="chromedriver"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="verifyCmpLogoImg" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0.054">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 6491
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655277826.112][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:53:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyBackgroundImg" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0.032">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 44322
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655277852.971][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:54:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySignUpPageCaption" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0.027">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 34834
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655277889.025][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:54:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLoginLink" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0.03">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 31855
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655277922.806][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:55:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLoginLinkEnable" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0.019">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 18901
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655277958.202][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:55:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLoginText" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0.024">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 15954
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655277994.361][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:56:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyRegisterFunctionality[abc, abc, abc, abc@test.com, 9876543210](1)" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="1.52">
+    <system-out><![CDATA[value of I 0
+value of K0
+abc
+value of K1
+abc
+value of K2
+abc
+value of K3
+abc@test.com
+value of K4
+9876543210
+value of I 1
+value of K0
+pqr
+value of K1
+pqr
+value of K2
+pqr
+value of K3
+pqr@test.com
+value of K4
+9999999990
+value of I 2
+value of K0
+mona
+value of K1
+mp1
+value of K2
+mp1
+value of K3
+mp@gmail.com
+value of K4
+9887665443
+chrome
+Login Id already exist, Enter Another Id
+true
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 39089
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278030.946][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:57:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyRegisterFunctionality[pqr, pqr, pqr, pqr@test.com, 9999999990](2)" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="1.447">
+    <system-out><![CDATA[chrome
+Login Id already exist, Enter Another Id
+true
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 44628
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278041.406][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:57:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyRegisterFunctionality[mona, mp1, mp1, mp@gmail.com, 9887665443](3)" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="1.433">
+    <system-out><![CDATA[chrome
+Login Id already exist, Enter Another Id
+true
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 35897
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278052.088][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:57:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLoginPageTitle" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.019">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 12814
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655277835.996][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:53:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCmpLogoImg" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.036">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 26637
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655277861.708][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:54:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyBackgroundImg" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.036">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 6315
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655277905.845][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:55:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLoginPageCaption" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.03">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 43590
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655277931.755][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:55:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySignUpLink" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.041">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 33536
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655277966.984][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:56:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySignUpLinkEnable" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.03">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 38392
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278003.314][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:56:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySignUPText" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.034">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 18690
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278062.296][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:57:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySignUPLinkFunctionality" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="3.081">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 46264
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278091.842][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:58:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyForgetPWDLink" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.034">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 32231
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278126.990][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:58:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyForgotPWDLinkEnable" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.026">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 6459
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278154.486][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:59:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyForgotPWDLinkFunctionality" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.842">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 4583
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278182.182][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:59:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLoginFunctionality[mp, mp](1)" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="1.228">
+    <system-out><![CDATA[value of I 0
+value of K0
+mp
+value of K1
+mp
+value of I 1
+value of K0
+pc
+value of K1
+123
+chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 5212
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278212.059][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 1:00:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLoginFunctionality[pc, 123](2)" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="1.118">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 1739
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278219.295][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 1:00:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyTimeLeftElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="3.395">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 3732
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655277842.762][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:54:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUserNameElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="14.027">
+    <system-out><![CDATA[chrome
+pritesh
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 30030
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655277867.626][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:54:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLogoutElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="4.036">
+    <system-out><![CDATA[chrome
+Log Out
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 33500
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655277911.585][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:55:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCmpListPageCaption" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="13.484">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 24081
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655277937.344][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:55:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="13.912">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 10784
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655277973.030][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:56:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCmpListTableHeader" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="13.773">
+    <system-out><![CDATA[chrome
+------------------------
+No.
+Company Name
+------------------------
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 14465
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278009.278][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:56:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCmpListTableContent" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="16.288">
+    <system-out><![CDATA[chrome
+------------------------
+NK Company
+DB company
+BazaarKhabri.in
+Linus Tech Tips
+LTT Media
+LMG Group
+LTT Media
+LMG Group
+BazaarKhabri.in
+Linus Tech Tips
+Linus Tech Tips
+LMG Group
+LMG Group
+LMG Group
+BazaarKhabri.in
+LTT Media
+Linus Tech Tips
+BazaarKhabri.in
+
+------------------------
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 3809
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278068.100][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:57:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCmpListPageSizeElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="17.703">
+    <system-out><![CDATA[chrome
+Available Page size is: 5
+Available Page size is: 10
+Available Page size is: 20
+Available Page size is: 50
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 14980
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278101.029][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:58:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCmpListTotalPages" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="14.602">
+    <system-out><![CDATA[chrome
+Page 1 of 7 (112 items)
+Number of Page available is: 1
+Number of Page available is: 2
+Number of Page available is: 3
+Number of Page available is: 4
+Number of Page available is: 5
+Number of Page available is: 6
+Number of Page available is: 7
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 21707
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278132.851][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:58:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCmpListAllButtonsElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="14.386">
+    <system-out><![CDATA[chrome
+------------------------
+Add
+Edit
+Delete
+Pending Invitation
+Pending Approval
+Add Invitation
+Group
+------------------------
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 20003
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278161.199][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:59:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAddBtnFunctionality" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="15.922">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 13957
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278188.945][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 12:59:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyEditBtnFunctionality" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="17.082">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 3370
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278226.285][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 1:00:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyDeleteBtnFunctionality" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="15.304">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 47542
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278250.729][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 1:00:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCmpDetailsAllTabElements" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="16.557">
+    <system-out><![CDATA[chrome
+------------------------
+Company Details
+Statutory Deatils
+Address Details
+Bank Details
+------------------------
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 46351
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278273.497][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 1:01:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCmpDetailsLegendsElements" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="15.813">
+    <system-out><![CDATA[chrome
+------------------------
+Company Details
+Report Description
+------------------------
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 31077
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278297.049][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 1:01:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCmpDetailsAllButtonsElements" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="15.908">
+    <system-out><![CDATA[chrome
+------------------------
+Previous
+Next
+Finish
+------------------------
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 43854
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278319.472][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 1:02:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCloseBtnElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="15.964">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 37965
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278342.437][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 1:02:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifytoAddNewCompanyDetailsFunctionality[3, TestCmp1, TC1, TCRH1, TCRH12](1)" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="16.974">
+    <system-out><![CDATA[value of I 0
+value of K0
+3
+value of K1
+TestCmp1
+value of K2
+TC1
+value of K3
+TCRH1
+value of K4
+TCRH12
+value of I 1
+value of K0
+4
+value of K1
+TestCmp2
+value of K2
+TC2
+value of K3
+TCRH2
+value of K4
+TCRH22
+chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 1734
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278365.915][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 1:02:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifytoAddNewCompanyDetailsFunctionality[4, TestCmp2, TC2, TCRH2, TCRH22](2)" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="16.94">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 43136
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278389.717][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 1:03:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLogoutFunctionality" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="3.991">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 9377
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655278413.867][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 15, 2022 1:03:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
