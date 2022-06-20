@@ -1,134 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="602.562" tests="42" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="255.925" tests="61" errors="0" skipped="42" failures="0">
   <properties>
-    <property name="java.specification.version" value="15"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/Users/mona/eclipse/SeleniumPactice/CMAutomationFramework/target/test-classes:/Users/mona/eclipse/SeleniumPactice/CMAutomationFramework/target/classes:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/mona/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/mona/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mona/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/mona/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mona/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/mona/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/mona/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/mona/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/mona/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/mona/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/mona/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/mona/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/mona/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/mona/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/mona/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/Users/mona/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/Users/mona/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/mona/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/mona/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/mona/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/mona/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/mona/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/mona/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/mona/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/mona/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/mona/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/mona/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/mona/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/mona/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/mona/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/mona/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/mona/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/mona/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="java.vm.specification.version" value="1.8"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="java.vm.specification.version" value="15"/>
+    <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="IN"/>
-    <property name="sun.boot.library.path" value="/Users/mona/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.2.v20210201-0955/jre/lib"/>
-    <property name="sun.java.command" value="/Users/mona/eclipse/SeleniumPactice/CMAutomationFramework/target/surefire/surefirebooter17935703842533057654.jar /Users/mona/eclipse/SeleniumPactice/CMAutomationFramework/target/surefire 2022-06-15T12-53-41_828-jvmRun1 surefire3515626028269196133tmp surefire_0698556831779935334tmp"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/mona/eclipse/SeleniumPactice/CMAutomationFramework/target/surefire/surefirebooter7727978152301627192.jar /Users/mona/eclipse/SeleniumPactice/CMAutomationFramework/target/surefire 2022-06-20T10-18-35_193-jvmRun1 surefire8802927986917175910tmp surefire_02964734057352893204tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/mona/eclipse/SeleniumPactice/CMAutomationFramework/target/test-classes:/Users/mona/eclipse/SeleniumPactice/CMAutomationFramework/target/classes:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/mona/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/mona/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/mona/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mona/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/mona/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mona/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/mona/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/mona/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/mona/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/mona/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/mona/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/mona/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/mona/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/mona/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/mona/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/mona/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/Users/mona/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/Users/mona/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/mona/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/mona/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/mona/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/mona/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/mona/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/mona/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/mona/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/mona/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/mona/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/mona/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/mona/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/mona/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/mona/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/mona/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/mona/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/mona/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/mona"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2021-01-19"/>
-    <property name="java.home" value="/Users/mona/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.2.v20210201-0955/jre"/>
-    <property name="file.separator" value="/"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre"/>
     <property name="basedir" value="/Users/mona/eclipse/SeleniumPactice/CMAutomationFramework"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="file.separator" value="/"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/mona/eclipse/SeleniumPactice/CMAutomationFramework/target/surefire/surefirebooter17935703842533057654.jar"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/mona/eclipse/SeleniumPactice/CMAutomationFramework/target/surefire/surefirebooter7727978152301627192.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
     <property name="user.name" value="mona"/>
     <property name="path.separator" value=":"/>
     <property name="os.version" value="10.12.4"/>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="/Users/mona/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/var/folders/nc/n48rv_690fxfd1k_96p3vslm0000gn/T/"/>
-    <property name="java.version" value="15.0.2"/>
+    <property name="java.version" value="1.8.0_111"/>
     <property name="user.dir" value="/Users/mona/eclipse/SeleniumPactice/CMAutomationFramework"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.library.path" value="/Users/mona/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="java.vm.version" value="25.111-b14"/>
     <property name="Webdriver.chrome.driver" value="chromedriver"/>
+    <property name="java.ext.dirs" value="/Users/mona/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="verifyCmpLogoImg" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0.054">
+  <testcase name="verifyCmpLogoImg" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0.071">
     <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
 chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 6491
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 43597
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655277826.112][WARNING]: FromSockAddr failed on netmask
+[1655700524.617][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.
-Jun 15, 2022 12:53:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 20, 2022 10:18:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyBackgroundImg" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0.032">
+  <testcase name="verifyBackgroundImg" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0.038">
     <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 44322
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 18885
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655277852.971][WARNING]: FromSockAddr failed on netmask
+[1655700555.119][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.
-Jun 15, 2022 12:54:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 20, 2022 10:19:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifySignUpPageCaption" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0.027">
+  <testcase name="verifySignUpPageCaption" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0.032">
     <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 34834
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 6886
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655277889.025][WARNING]: FromSockAddr failed on netmask
+[1655700595.104][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.
-Jun 15, 2022 12:54:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 20, 2022 10:19:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyLoginLink" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0.03">
+  <testcase name="verifyLoginLink" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0.028">
     <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 31855
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 4498
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655277922.806][WARNING]: FromSockAddr failed on netmask
+[1655700631.000][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.
-Jun 15, 2022 12:55:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 20, 2022 10:20:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyLoginLinkEnable" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0.019">
+  <testcase name="verifyLoginLinkEnable" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f814c96104bbd46526adf88df8113c30&#10;*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Sign up&apos;)]}"/>
     <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 18901
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 31069
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655277958.202][WARNING]: FromSockAddr failed on netmask
+[1655700648.283][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.
-Jun 15, 2022 12:55:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 20, 2022 10:20:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyLoginText" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0.024">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 15954
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655277994.361][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 12:56:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="verifyRegisterFunctionality[abc, abc, abc, abc@test.com, 9876543210](1)" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="1.52">
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0">
+    <skipped/>
     <system-out><![CDATA[value of I 0
 value of K0
 abc
@@ -162,180 +163,147 @@ value of K3
 mp@gmail.com
 value of K4
 9887665443
-chrome
-Login Id already exist, Enter Another Id
-true
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 39089
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278030.946][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 12:57:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
-  <testcase name="verifyRegisterFunctionality[pqr, pqr, pqr, pqr@test.com, 9999999990](2)" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="1.447">
-    <system-out><![CDATA[chrome
-Login Id already exist, Enter Another Id
-true
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 44628
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278041.406][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 12:57:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="verifyRegisterFunctionality[mona, mp1, mp1, mp@gmail.com, 9887665443](3)" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="1.433">
-    <system-out><![CDATA[chrome
-Login Id already exist, Enter Another Id
-true
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 35897
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278052.088][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 12:57:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="verifyLoginPageTitle" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.019">
+  <testcase name="verifyLoginText" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f814c96104bbd46526adf88df8113c30&#10;*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Sign up&apos;)]}"/>
+  </testcase>
+  <testcase name="verifyRegisterFunctionality" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f814c96104bbd46526adf88df8113c30&#10;*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Sign up&apos;)]}"/>
+  </testcase>
+  <testcase name="verifyRegisterFunctionality" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f814c96104bbd46526adf88df8113c30&#10;*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Sign up&apos;)]}"/>
+  </testcase>
+  <testcase name="verifyRegisterFunctionality" classname="com.cloudmiracle.qa.testcases.SignUpPageTestCases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f814c96104bbd46526adf88df8113c30&#10;*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Sign up&apos;)]}"/>
+  </testcase>
+  <testcase name="verifyLoginPageTitle" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.007">
     <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 12814
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 27325
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655277835.996][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 12:53:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1655700536.035][WARNING]: FromSockAddr failed on netmaskC
+hromeDriver was started successfully.
+Jun 20, 2022 10:18:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyCmpLogoImg" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.036">
+  <testcase name="verifyCmpLogoImg" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.046">
     <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 26637
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 32881
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655277861.708][WARNING]: FromSockAddr failed on netmask
+[1655700564.291][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.
-Jun 15, 2022 12:54:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 20, 2022 10:19:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyBackgroundImg" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.036">
+  <testcase name="verifyBackgroundImg" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.043">
     <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 6315
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 12649
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655277905.845][WARNING]: FromSockAddr failed on netmask
+[1655700605.499][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.
-Jun 15, 2022 12:55:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 20, 2022 10:20:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyLoginPageCaption" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.03">
+  <testcase name="verifySignUpLink" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.044">
     <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 43590
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 8909
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655277931.755][WARNING]: FromSockAddr failed on netmask
+[1655700656.069][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.
-Jun 15, 2022 12:55:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 20, 2022 10:20:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifySignUpLink" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.041">
+  <testcase name="verifySignUpLinkEnable" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.027">
     <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 33536
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 25627
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655277966.984][WARNING]: FromSockAddr failed on netmask
+[1655700668.189][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.
-Jun 15, 2022 12:56:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 20, 2022 10:21:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifySignUpLinkEnable" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.03">
+  <testcase name="verifySignUPText" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.05">
     <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 38392
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 40528
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278003.314][WARNING]: FromSockAddr failed on netmask
+[1655700682.063][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.
-Jun 15, 2022 12:56:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 20, 2022 10:21:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifySignUPText" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.034">
+  <testcase name="verifySignUPLinkFunctionality" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="3.1">
     <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 18690
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 18938
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278062.296][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 12:57:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was sta[r16557t0e0d6 9s0u.c6c3e8s]s[fWuAlRlNyI.N
+G]: FromSockAddr failed on netmask
+Jun 20, 2022 10:21:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifySignUPLinkFunctionality" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="3.081">
+  <testcase name="verifyForgetPWDLink" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.066">
     <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 46264
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 4993
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278091.842][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.
-Jun 15, 2022 12:58:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1655700704.295][WARNING]: FromSockAddr failed on netmask
+Jun 20, 2022 10:21:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyForgetPWDLink" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.034">
+  <testcase name="verifyForgotPWDLinkEnable" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.028">
     <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 32231
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 33001
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278126.990][WARNING]: FromSockAddr failed on netmask
+[1655700711.940][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.
-Jun 15, 2022 12:58:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 20, 2022 10:21:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyForgotPWDLinkEnable" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.026">
+  <testcase name="verifyForgotPWDLinkFunctionality" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.883">
     <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 6459
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 44057
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278154.486][WARNING]: FromSockAddr failed on netmask
+[1655700727.141][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.
-Jun 15, 2022 12:59:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 20, 2022 10:22:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyForgotPWDLinkFunctionality" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="0.842">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 4583
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278182.182][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 12:59:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="verifyLoginFunctionality[mp, mp](1)" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="1.228">
+  <testcase name="verifyLoginFunctionality[mp, mp](1)" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="1.269">
     <system-out><![CDATA[value of I 0
 value of K0
 mp
@@ -348,295 +316,127 @@ value of K1
 123
 chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 5212
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 29585
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278212.059][WARNING]: FromSockAddr failed on netmask
+[1655700734.660][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.
-Jun 15, 2022 1:00:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 20, 2022 10:22:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyLoginFunctionality[pc, 123](2)" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="1.118">
+  <testcase name="verifyLoginFunctionality[pc, 123](2)" classname="com.cloudmiracle.qa.testcases.LoginPageTestcases" time="1.1">
     <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 1739
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 40422
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278219.295][WARNING]: FromSockAddr failed on netmask
+[1655700742.019][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.
-Jun 15, 2022 1:00:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 20, 2022 10:22:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyTimeLeftElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="3.395">
+  <testcase name="verifyTimeLeftElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="3.549">
     <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 3732
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 37077
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655277842.762][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 12:54:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1655700543.258][WARNING]: FromSockAddr failed on netmCashkr
+omeDriver was started successfully.
+Jun 20, 2022 10:19:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyUserNameElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="14.027">
+  <testcase name="verifyUserNameElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="15.054">
     <system-out><![CDATA[chrome
 pritesh
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 30030
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 8759
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655277867.626][WARNING]: FromSockAddr failed on netmask
+[1655700571.948][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.
-Jun 15, 2022 12:54:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 20, 2022 10:19:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyLogoutElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="4.036">
+  <testcase name="verifyLogoutElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="4.929">
     <system-out><![CDATA[chrome
 Log Out
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 33500
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 16471
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655277911.585][WARNING]: FromSockAddr failed on netmask
+[1655700616.113][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.
-Jun 15, 2022 12:55:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 20, 2022 10:20:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyCmpListPageCaption" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="13.484">
+  <testcase name="verifyCmpListPageCaption" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0098026cb0ce74f338016c789d302e67&#10;*** Element info: {Using=name, value=txtUserName}"/>
     <system-out><![CDATA[chrome
+chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 24081
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 7827
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655277937.344][WARNING]: FromSockAddr failed on netmask
+[1655700640.747][WARNING]: FromSockAddr failed on netmask
 ChromeDriver was started successfully.
-Jun 15, 2022 12:55:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 20, 2022 10:20:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 20008
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655700644.876][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jun 20, 2022 10:20:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifySearchElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="13.912">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 10784
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655277973.030][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 12:56:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="verifyCmpListTableHeader" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="13.773">
-    <system-out><![CDATA[chrome
-------------------------
-No.
-Company Name
-------------------------
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 14465
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278009.278][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 12:56:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="verifyCmpListTableContent" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="16.288">
-    <system-out><![CDATA[chrome
-------------------------
-NK Company
-DB company
-BazaarKhabri.in
-Linus Tech Tips
-LTT Media
-LMG Group
-LTT Media
-LMG Group
-BazaarKhabri.in
-Linus Tech Tips
-Linus Tech Tips
-LMG Group
-LMG Group
-LMG Group
-BazaarKhabri.in
-LTT Media
-Linus Tech Tips
-BazaarKhabri.in
-
-------------------------
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 3809
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278068.100][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 12:57:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="verifyCmpListPageSizeElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="17.703">
-    <system-out><![CDATA[chrome
-Available Page size is: 5
-Available Page size is: 10
-Available Page size is: 20
-Available Page size is: 50
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 14980
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278101.029][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 12:58:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="verifyCmpListTotalPages" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="14.602">
-    <system-out><![CDATA[chrome
-Page 1 of 7 (112 items)
-Number of Page available is: 1
-Number of Page available is: 2
-Number of Page available is: 3
-Number of Page available is: 4
-Number of Page available is: 5
-Number of Page available is: 6
-Number of Page available is: 7
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 21707
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278132.851][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 12:58:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="verifyCmpListAllButtonsElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="14.386">
-    <system-out><![CDATA[chrome
-------------------------
-Add
-Edit
-Delete
-Pending Invitation
-Pending Approval
-Add Invitation
-Group
-------------------------
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 20003
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278161.199][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 12:59:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="verifyAddBtnFunctionality" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="15.922">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 13957
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278188.945][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 12:59:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="verifyEditBtnFunctionality" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="17.082">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 3370
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278226.285][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 1:00:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="verifyDeleteBtnFunctionality" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="15.304">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 47542
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278250.729][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 1:00:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="verifyCmpDetailsAllTabElements" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="16.557">
-    <system-out><![CDATA[chrome
-------------------------
-Company Details
-Statutory Deatils
-Address Details
-Bank Details
-------------------------
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 46351
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278273.497][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 1:01:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="verifyCmpDetailsLegendsElements" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="15.813">
-    <system-out><![CDATA[chrome
-------------------------
-Company Details
-Report Description
-------------------------
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 31077
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278297.049][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 1:01:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="verifyCmpDetailsAllButtonsElements" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="15.908">
-    <system-out><![CDATA[chrome
-------------------------
-Previous
-Next
-Finish
-------------------------
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 43854
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278319.472][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 1:02:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="verifyCloseBtnElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="15.964">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 37965
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278342.437][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 1:02:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="verifytoAddNewCompanyDetailsFunctionality[3, TestCmp1, TC1, TCRH1, TCRH12](1)" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="16.974">
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped/>
     <system-out><![CDATA[value of I 0
 value of K0
 3
@@ -659,39 +459,60 @@ value of K3
 TCRH2
 value of K4
 TCRH22
-chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 1734
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278365.915][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 1:02:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
-  <testcase name="verifytoAddNewCompanyDetailsFunctionality[4, TestCmp2, TC2, TCRH2, TCRH22](2)" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="16.94">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 43136
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278389.717][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 1:03:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="verifyLogoutFunctionality" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="3.991">
-    <system-out><![CDATA[chrome
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 9377
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1655278413.867][WARNING]: FromSockAddr failed on netmask
-ChromeDriver was started successfully.
-Jun 15, 2022 1:03:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="setup" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifySearchElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0098026cb0ce74f338016c789d302e67&#10;*** Element info: {Using=name, value=txtUserName}"/>
+  </testcase>
+  <testcase name="verifyCmpListTableHeader" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0098026cb0ce74f338016c789d302e67&#10;*** Element info: {Using=name, value=txtUserName}"/>
+  </testcase>
+  <testcase name="verifyCmpListTableContent" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0098026cb0ce74f338016c789d302e67&#10;*** Element info: {Using=name, value=txtUserName}"/>
+  </testcase>
+  <testcase name="verifyCmpListPageSizeElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0098026cb0ce74f338016c789d302e67&#10;*** Element info: {Using=name, value=txtUserName}"/>
+  </testcase>
+  <testcase name="verifyCmpListTotalPages" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0098026cb0ce74f338016c789d302e67&#10;*** Element info: {Using=name, value=txtUserName}"/>
+  </testcase>
+  <testcase name="verifyCmpListAllButtonsElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0098026cb0ce74f338016c789d302e67&#10;*** Element info: {Using=name, value=txtUserName}"/>
+  </testcase>
+  <testcase name="verifyAddBtnFunctionality" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0098026cb0ce74f338016c789d302e67&#10;*** Element info: {Using=name, value=txtUserName}"/>
+  </testcase>
+  <testcase name="verifyEditBtnFunctionality" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0098026cb0ce74f338016c789d302e67&#10;*** Element info: {Using=name, value=txtUserName}"/>
+  </testcase>
+  <testcase name="verifyDeleteBtnFunctionality" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0098026cb0ce74f338016c789d302e67&#10;*** Element info: {Using=name, value=txtUserName}"/>
+  </testcase>
+  <testcase name="verifyCmpDetailsAllTabElements" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0098026cb0ce74f338016c789d302e67&#10;*** Element info: {Using=name, value=txtUserName}"/>
+  </testcase>
+  <testcase name="verifyCmpDetailsLegendsElements" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0098026cb0ce74f338016c789d302e67&#10;*** Element info: {Using=name, value=txtUserName}"/>
+  </testcase>
+  <testcase name="verifyCmpDetailsAllButtonsElements" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0098026cb0ce74f338016c789d302e67&#10;*** Element info: {Using=name, value=txtUserName}"/>
+  </testcase>
+  <testcase name="verifyCloseBtnElement" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0098026cb0ce74f338016c789d302e67&#10;*** Element info: {Using=name, value=txtUserName}"/>
+  </testcase>
+  <testcase name="verifytoAddNewCompanyDetailsFunctionality" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0098026cb0ce74f338016c789d302e67&#10;*** Element info: {Using=name, value=txtUserName}"/>
+  </testcase>
+  <testcase name="verifytoAddNewCompanyDetailsFunctionality" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0098026cb0ce74f338016c789d302e67&#10;*** Element info: {Using=name, value=txtUserName}"/>
+  </testcase>
+  <testcase name="verifyLogoutFunctionality" classname="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0098026cb0ce74f338016c789d302e67&#10;*** Element info: {Using=name, value=txtUserName}"/>
   </testcase>
 </testsuite>

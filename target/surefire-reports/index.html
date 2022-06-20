@@ -24,21 +24,21 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
-          <img src="collapseall.gif" class="collapse-all-icon">
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
                     <span>testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,7 +91,140 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">42 methods,   42 passed</span>
+                    <span class="method-stats">42 methods, 1 failed,  22 skipped,  19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" hash-for-method="verifyLoginPageCaption">verifyLoginPageCaption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifyAddBtnFunctionality">verifyAddBtnFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifyCloseBtnElement">verifyCloseBtnElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifyCmpDetailsAllButtonsElements">verifyCmpDetailsAllButtonsElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifyCmpDetailsAllTabElements">verifyCmpDetailsAllTabElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifyCmpDetailsLegendsElements">verifyCmpDetailsLegendsElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifyCmpListAllButtonsElement">verifyCmpListAllButtonsElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifyCmpListPageCaption">verifyCmpListPageCaption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifyCmpListPageSizeElement">verifyCmpListPageSizeElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifyCmpListTableContent">verifyCmpListTableContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifyCmpListTableHeader">verifyCmpListTableHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifyCmpListTotalPages">verifyCmpListTotalPages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifyDeleteBtnFunctionality">verifyDeleteBtnFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifyEditBtnFunctionality">verifyEditBtnFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" hash-for-method="verifyLoginLinkEnable">verifyLoginLinkEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" hash-for-method="verifyLoginText">verifyLoginText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifyLogoutFunctionality">verifyLogoutFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" hash-for-method="verifyRegisterFunctionality">verifyRegisterFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" hash-for-method="verifyRegisterFunctionality">verifyRegisterFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" hash-for-method="verifyRegisterFunctionality">verifyRegisterFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifySearchElement">verifySearchElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifytoAddNewCompanyDetailsFunctionality">verifytoAddNewCompanyDetailsFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifytoAddNewCompanyDetailsFunctionality">verifytoAddNewCompanyDetailsFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,213 +234,98 @@
                     </span>
                     <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyAddBtnFunctionality">verifyAddBtnFunctionality</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" hash-for-method="verifyBackgroundImg">verifyBackgroundImg</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifyBackgroundImg">verifyBackgroundImg</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" hash-for-method="verifyBackgroundImg">verifyBackgroundImg</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" class="method navigator-link" hash-for-method="verifyBackgroundImg">verifyBackgroundImg</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" hash-for-method="verifyCmpLogoImg">verifyCmpLogoImg</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCloseBtnElement">verifyCloseBtnElement</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" hash-for-method="verifyCmpLogoImg">verifyCmpLogoImg</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCmpDetailsAllButtonsElements">verifyCmpDetailsAllButtonsElements</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" hash-for-method="verifyForgetPWDLink">verifyForgetPWDLink</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCmpDetailsAllTabElements">verifyCmpDetailsAllTabElements</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" hash-for-method="verifyForgotPWDLinkEnable">verifyForgotPWDLinkEnable</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCmpDetailsLegendsElements">verifyCmpDetailsLegendsElements</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" hash-for-method="verifyForgotPWDLinkFunctionality">verifyForgotPWDLinkFunctionality</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCmpListAllButtonsElement">verifyCmpListAllButtonsElement</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" hash-for-method="verifyLoginFunctionality(mp, mp)">verifyLoginFunctionality(mp, mp)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCmpListPageCaption">verifyCmpListPageCaption</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" hash-for-method="verifyLoginFunctionality(pc, 123)">verifyLoginFunctionality(pc, 123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCmpListPageSizeElement">verifyCmpListPageSizeElement</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" hash-for-method="verifyLoginLink">verifyLoginLink</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCmpListTableContent">verifyCmpListTableContent</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" hash-for-method="verifyLoginPageTitle">verifyLoginPageTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCmpListTableHeader">verifyCmpListTableHeader</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifyLogoutElement">verifyLogoutElement</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyCmpListTotalPages">verifyCmpListTotalPages</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" hash-for-method="verifySignUPLinkFunctionality">verifySignUPLinkFunctionality</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" class="method navigator-link" hash-for-method="verifyCmpLogoImg">verifyCmpLogoImg</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" hash-for-method="verifySignUPText">verifySignUPText</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifyCmpLogoImg">verifyCmpLogoImg</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" hash-for-method="verifySignUpLink">verifySignUpLink</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyDeleteBtnFunctionality">verifyDeleteBtnFunctionality</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" hash-for-method="verifySignUpLinkEnable">verifySignUpLinkEnable</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyEditBtnFunctionality">verifyEditBtnFunctionality</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" hash-for-method="verifySignUpPageCaption">verifySignUpPageCaption</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifyForgetPWDLink">verifyForgetPWDLink</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifyTimeLeftElement">verifyTimeLeftElement</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifyForgotPWDLinkEnable">verifyForgotPWDLinkEnable</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifyForgotPWDLinkFunctionality">verifyForgotPWDLinkFunctionality</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifyLoginFunctionality(mp, mp)">verifyLoginFunctionality(mp, mp)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifyLoginFunctionality(pc, 123)">verifyLoginFunctionality(pc, 123)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" class="method navigator-link" hash-for-method="verifyLoginLink">verifyLoginLink</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" class="method navigator-link" hash-for-method="verifyLoginLinkEnable">verifyLoginLinkEnable</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifyLoginPageCaption">verifyLoginPageCaption</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifyLoginPageTitle">verifyLoginPageTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" class="method navigator-link" hash-for-method="verifyLoginText">verifyLoginText</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyLogoutElement">verifyLogoutElement</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyLogoutFunctionality">verifyLogoutFunctionality</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" class="method navigator-link" hash-for-method="verifyRegisterFunctionality(pqr, pqr, pqr, pqr@test.com, 9999999990)">verifyRegisterFunctionality(pqr, pqr, pqr, pqr@test.com, 9999999990)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" class="method navigator-link" hash-for-method="verifyRegisterFunctionality(mona, mp1, mp1, mp@gmail.com, 9887665443)">verifyRegisterFunctionality(mona, mp1, mp1, mp@gmail.com, 9887665443)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" class="method navigator-link" hash-for-method="verifyRegisterFunctionality(abc, abc, abc, abc@test.com, 9876543210)">verifyRegisterFunctionality(abc, abc, abc, abc@test.com, 9876543210)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifySearchElement">verifySearchElement</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifySignUPLinkFunctionality">verifySignUPLinkFunctionality</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifySignUPText">verifySignUPText</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifySignUpLink">verifySignUpLink</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.LoginPageTestcases" class="method navigator-link" hash-for-method="verifySignUpLinkEnable">verifySignUpLinkEnable</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.SignUpPageTestCases" class="method navigator-link" hash-for-method="verifySignUpPageCaption">verifySignUpPageCaption</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyTimeLeftElement">verifyTimeLeftElement</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifyUserNameElement">verifyUserNameElement</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifytoAddNewCompanyDetailsFunctionality(3, TestCmp1, TC1, TCRH1, TCRH12)">verifytoAddNewCompanyDetailsFunctionality(3, TestCmp1, TC1, TCRH1, TCRH12)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" class="method navigator-link" hash-for-method="verifytoAddNewCompanyDetailsFunctionality(4, TestCmp2, TC2, TCRH2, TCRH22)">verifytoAddNewCompanyDetailsFunctionality(4, TestCmp2, TC2, TCRH2, TCRH22)</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.cloudmiracle.qa.testcases.CompanyListPageTestcases" hash-for-method="verifyUserNameElement">verifyUserNameElement</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -322,6 +340,825 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginPageCaption">
+                  </a> <!-- verifyLoginPageCaption -->
+                  <span class="method-name">verifyLoginPageCaption</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 803c3a3eaca680d9ac14f1f963e4d82a
+*** Element info: {Using=xpath, value=//div[contains(@class,&apos;login-box&apos;)]//a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.getText(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateLoginPageCaption(LoginPage.java:59)
+	at com.cloudmiracle.qa.testcases.LoginPageTestcases.verifyLoginPageCaption(LoginPageTestcases.java:58)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.cloudmiracle.qa.testcases.SignUpPageTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginLinkEnable">
+                  </a> <!-- verifyLoginLinkEnable -->
+                  <span class="method-name">verifyLoginLinkEnable</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f814c96104bbd46526adf88df8113c30
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Sign up&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateSignUPLinkFunctionality(LoginPage.java:75)
+	at com.cloudmiracle.qa.testcases.SignUpPageTestCases.setup(SignUpPageTestCases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginText">
+                  </a> <!-- verifyLoginText -->
+                  <span class="method-name">verifyLoginText</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f814c96104bbd46526adf88df8113c30
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Sign up&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateSignUPLinkFunctionality(LoginPage.java:75)
+	at com.cloudmiracle.qa.testcases.SignUpPageTestCases.setup(SignUpPageTestCases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterFunctionality">
+                  </a> <!-- verifyRegisterFunctionality -->
+                  <span class="method-name">verifyRegisterFunctionality</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f814c96104bbd46526adf88df8113c30
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Sign up&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateSignUPLinkFunctionality(LoginPage.java:75)
+	at com.cloudmiracle.qa.testcases.SignUpPageTestCases.setup(SignUpPageTestCases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterFunctionality">
+                  </a> <!-- verifyRegisterFunctionality -->
+                  <span class="method-name">verifyRegisterFunctionality</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f814c96104bbd46526adf88df8113c30
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Sign up&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateSignUPLinkFunctionality(LoginPage.java:75)
+	at com.cloudmiracle.qa.testcases.SignUpPageTestCases.setup(SignUpPageTestCases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterFunctionality">
+                  </a> <!-- verifyRegisterFunctionality -->
+                  <span class="method-name">verifyRegisterFunctionality</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f814c96104bbd46526adf88df8113c30
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Sign up&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateSignUPLinkFunctionality(LoginPage.java:75)
+	at com.cloudmiracle.qa.testcases.SignUpPageTestCases.setup(SignUpPageTestCases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddBtnFunctionality">
+                  </a> <!-- verifyAddBtnFunctionality -->
+                  <span class="method-name">verifyAddBtnFunctionality</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0098026cb0ce74f338016c789d302e67
+*** Element info: {Using=name, value=txtUserName}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateLoginFunctionality(LoginPage.java:97)
+	at com.cloudmiracle.qa.testcases.CompanyListPageTestcases.setup(CompanyListPageTestcases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCloseBtnElement">
+                  </a> <!-- verifyCloseBtnElement -->
+                  <span class="method-name">verifyCloseBtnElement</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0098026cb0ce74f338016c789d302e67
+*** Element info: {Using=name, value=txtUserName}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateLoginFunctionality(LoginPage.java:97)
+	at com.cloudmiracle.qa.testcases.CompanyListPageTestcases.setup(CompanyListPageTestcases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpDetailsAllButtonsElements">
+                  </a> <!-- verifyCmpDetailsAllButtonsElements -->
+                  <span class="method-name">verifyCmpDetailsAllButtonsElements</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0098026cb0ce74f338016c789d302e67
+*** Element info: {Using=name, value=txtUserName}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateLoginFunctionality(LoginPage.java:97)
+	at com.cloudmiracle.qa.testcases.CompanyListPageTestcases.setup(CompanyListPageTestcases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpDetailsAllTabElements">
+                  </a> <!-- verifyCmpDetailsAllTabElements -->
+                  <span class="method-name">verifyCmpDetailsAllTabElements</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0098026cb0ce74f338016c789d302e67
+*** Element info: {Using=name, value=txtUserName}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateLoginFunctionality(LoginPage.java:97)
+	at com.cloudmiracle.qa.testcases.CompanyListPageTestcases.setup(CompanyListPageTestcases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpDetailsLegendsElements">
+                  </a> <!-- verifyCmpDetailsLegendsElements -->
+                  <span class="method-name">verifyCmpDetailsLegendsElements</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0098026cb0ce74f338016c789d302e67
+*** Element info: {Using=name, value=txtUserName}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateLoginFunctionality(LoginPage.java:97)
+	at com.cloudmiracle.qa.testcases.CompanyListPageTestcases.setup(CompanyListPageTestcases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpListAllButtonsElement">
+                  </a> <!-- verifyCmpListAllButtonsElement -->
+                  <span class="method-name">verifyCmpListAllButtonsElement</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0098026cb0ce74f338016c789d302e67
+*** Element info: {Using=name, value=txtUserName}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateLoginFunctionality(LoginPage.java:97)
+	at com.cloudmiracle.qa.testcases.CompanyListPageTestcases.setup(CompanyListPageTestcases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpListPageCaption">
+                  </a> <!-- verifyCmpListPageCaption -->
+                  <span class="method-name">verifyCmpListPageCaption</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0098026cb0ce74f338016c789d302e67
+*** Element info: {Using=name, value=txtUserName}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateLoginFunctionality(LoginPage.java:97)
+	at com.cloudmiracle.qa.testcases.CompanyListPageTestcases.setup(CompanyListPageTestcases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpListPageSizeElement">
+                  </a> <!-- verifyCmpListPageSizeElement -->
+                  <span class="method-name">verifyCmpListPageSizeElement</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0098026cb0ce74f338016c789d302e67
+*** Element info: {Using=name, value=txtUserName}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateLoginFunctionality(LoginPage.java:97)
+	at com.cloudmiracle.qa.testcases.CompanyListPageTestcases.setup(CompanyListPageTestcases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpListTableContent">
+                  </a> <!-- verifyCmpListTableContent -->
+                  <span class="method-name">verifyCmpListTableContent</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0098026cb0ce74f338016c789d302e67
+*** Element info: {Using=name, value=txtUserName}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateLoginFunctionality(LoginPage.java:97)
+	at com.cloudmiracle.qa.testcases.CompanyListPageTestcases.setup(CompanyListPageTestcases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpListTableHeader">
+                  </a> <!-- verifyCmpListTableHeader -->
+                  <span class="method-name">verifyCmpListTableHeader</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0098026cb0ce74f338016c789d302e67
+*** Element info: {Using=name, value=txtUserName}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateLoginFunctionality(LoginPage.java:97)
+	at com.cloudmiracle.qa.testcases.CompanyListPageTestcases.setup(CompanyListPageTestcases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpListTotalPages">
+                  </a> <!-- verifyCmpListTotalPages -->
+                  <span class="method-name">verifyCmpListTotalPages</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0098026cb0ce74f338016c789d302e67
+*** Element info: {Using=name, value=txtUserName}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateLoginFunctionality(LoginPage.java:97)
+	at com.cloudmiracle.qa.testcases.CompanyListPageTestcases.setup(CompanyListPageTestcases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDeleteBtnFunctionality">
+                  </a> <!-- verifyDeleteBtnFunctionality -->
+                  <span class="method-name">verifyDeleteBtnFunctionality</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0098026cb0ce74f338016c789d302e67
+*** Element info: {Using=name, value=txtUserName}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateLoginFunctionality(LoginPage.java:97)
+	at com.cloudmiracle.qa.testcases.CompanyListPageTestcases.setup(CompanyListPageTestcases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEditBtnFunctionality">
+                  </a> <!-- verifyEditBtnFunctionality -->
+                  <span class="method-name">verifyEditBtnFunctionality</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0098026cb0ce74f338016c789d302e67
+*** Element info: {Using=name, value=txtUserName}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateLoginFunctionality(LoginPage.java:97)
+	at com.cloudmiracle.qa.testcases.CompanyListPageTestcases.setup(CompanyListPageTestcases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoutFunctionality">
+                  </a> <!-- verifyLogoutFunctionality -->
+                  <span class="method-name">verifyLogoutFunctionality</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0098026cb0ce74f338016c789d302e67
+*** Element info: {Using=name, value=txtUserName}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateLoginFunctionality(LoginPage.java:97)
+	at com.cloudmiracle.qa.testcases.CompanyListPageTestcases.setup(CompanyListPageTestcases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchElement">
+                  </a> <!-- verifySearchElement -->
+                  <span class="method-name">verifySearchElement</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0098026cb0ce74f338016c789d302e67
+*** Element info: {Using=name, value=txtUserName}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateLoginFunctionality(LoginPage.java:97)
+	at com.cloudmiracle.qa.testcases.CompanyListPageTestcases.setup(CompanyListPageTestcases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytoAddNewCompanyDetailsFunctionality">
+                  </a> <!-- verifytoAddNewCompanyDetailsFunctionality -->
+                  <span class="method-name">verifytoAddNewCompanyDetailsFunctionality</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0098026cb0ce74f338016c789d302e67
+*** Element info: {Using=name, value=txtUserName}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateLoginFunctionality(LoginPage.java:97)
+	at com.cloudmiracle.qa.testcases.CompanyListPageTestcases.setup(CompanyListPageTestcases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytoAddNewCompanyDetailsFunctionality">
+                  </a> <!-- verifytoAddNewCompanyDetailsFunctionality -->
+                  <span class="method-name">verifytoAddNewCompanyDetailsFunctionality</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MonaMac.local&apos;, ip: &apos;fe80:0:0:0:f8:1954:ba67:77a9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.4&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/nc/n48rv_690fx...}, goog:chromeOptions: {debuggerAddress: localhost:49705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0098026cb0ce74f338016c789d302e67
+*** Element info: {Using=name, value=txtUserName}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:400)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.cloudmiracle.qa.pages.LoginPage.validateLoginFunctionality(LoginPage.java:97)
+	at com.cloudmiracle.qa.testcases.CompanyListPageTestcases.setup(CompanyListPageTestcases.java:32)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cloudmiracle.qa.testcases.SignUpPageTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBackgroundImg">
+                  </a> <!-- verifyBackgroundImg -->
+                  <span class="method-name">verifyBackgroundImg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCmpLogoImg">
+                  </a> <!-- verifyCmpLogoImg -->
+                  <span class="method-name">verifyCmpLogoImg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginLink">
+                  </a> <!-- verifyLoginLink -->
+                  <span class="method-name">verifyLoginLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignUpPageCaption">
+                  </a> <!-- verifySignUpPageCaption -->
+                  <span class="method-name">verifySignUpPageCaption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -381,13 +1218,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLoginPageCaption">
-                  </a> <!-- verifyLoginPageCaption -->
-                  <span class="method-name">verifyLoginPageCaption</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="verifyLoginPageTitle">
                   </a> <!-- verifyLoginPageTitle -->
                   <span class="method-name">verifyLoginPageTitle</span>
@@ -431,114 +1261,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyAddBtnFunctionality">
-                  </a> <!-- verifyAddBtnFunctionality -->
-                  <span class="method-name">verifyAddBtnFunctionality</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCloseBtnElement">
-                  </a> <!-- verifyCloseBtnElement -->
-                  <span class="method-name">verifyCloseBtnElement</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCmpDetailsAllButtonsElements">
-                  </a> <!-- verifyCmpDetailsAllButtonsElements -->
-                  <span class="method-name">verifyCmpDetailsAllButtonsElements</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCmpDetailsAllTabElements">
-                  </a> <!-- verifyCmpDetailsAllTabElements -->
-                  <span class="method-name">verifyCmpDetailsAllTabElements</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCmpDetailsLegendsElements">
-                  </a> <!-- verifyCmpDetailsLegendsElements -->
-                  <span class="method-name">verifyCmpDetailsLegendsElements</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCmpListAllButtonsElement">
-                  </a> <!-- verifyCmpListAllButtonsElement -->
-                  <span class="method-name">verifyCmpListAllButtonsElement</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCmpListPageCaption">
-                  </a> <!-- verifyCmpListPageCaption -->
-                  <span class="method-name">verifyCmpListPageCaption</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCmpListPageSizeElement">
-                  </a> <!-- verifyCmpListPageSizeElement -->
-                  <span class="method-name">verifyCmpListPageSizeElement</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCmpListTableContent">
-                  </a> <!-- verifyCmpListTableContent -->
-                  <span class="method-name">verifyCmpListTableContent</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCmpListTableHeader">
-                  </a> <!-- verifyCmpListTableHeader -->
-                  <span class="method-name">verifyCmpListTableHeader</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCmpListTotalPages">
-                  </a> <!-- verifyCmpListTotalPages -->
-                  <span class="method-name">verifyCmpListTotalPages</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyDeleteBtnFunctionality">
-                  </a> <!-- verifyDeleteBtnFunctionality -->
-                  <span class="method-name">verifyDeleteBtnFunctionality</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyEditBtnFunctionality">
-                  </a> <!-- verifyEditBtnFunctionality -->
-                  <span class="method-name">verifyEditBtnFunctionality</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="verifyLogoutElement">
                   </a> <!-- verifyLogoutElement -->
                   <span class="method-name">verifyLogoutElement</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLogoutFunctionality">
-                  </a> <!-- verifyLogoutFunctionality -->
-                  <span class="method-name">verifyLogoutFunctionality</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifySearchElement">
-                  </a> <!-- verifySearchElement -->
-                  <span class="method-name">verifySearchElement</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -555,96 +1280,6 @@
                   <span class="method-name">verifyUserNameElement</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifytoAddNewCompanyDetailsFunctionality(3, TestCmp1, TC1, TCRH1, TCRH12)">
-                  </a> <!-- verifytoAddNewCompanyDetailsFunctionality(3, TestCmp1, TC1, TCRH1, TCRH12) -->
-                  <span class="method-name">verifytoAddNewCompanyDetailsFunctionality</span>
-                  <span class="parameters">(3, TestCmp1, TC1, TCRH1, TCRH12)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifytoAddNewCompanyDetailsFunctionality(4, TestCmp2, TC2, TCRH2, TCRH22)">
-                  </a> <!-- verifytoAddNewCompanyDetailsFunctionality(4, TestCmp2, TC2, TCRH2, TCRH22) -->
-                  <span class="method-name">verifytoAddNewCompanyDetailsFunctionality</span>
-                  <span class="parameters">(4, TestCmp2, TC2, TCRH2, TCRH22)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.cloudmiracle.qa.testcases.SignUpPageTestCases</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyBackgroundImg">
-                  </a> <!-- verifyBackgroundImg -->
-                  <span class="method-name">verifyBackgroundImg</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCmpLogoImg">
-                  </a> <!-- verifyCmpLogoImg -->
-                  <span class="method-name">verifyCmpLogoImg</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLoginLink">
-                  </a> <!-- verifyLoginLink -->
-                  <span class="method-name">verifyLoginLink</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLoginLinkEnable">
-                  </a> <!-- verifyLoginLinkEnable -->
-                  <span class="method-name">verifyLoginLinkEnable</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLoginText">
-                  </a> <!-- verifyLoginText -->
-                  <span class="method-name">verifyLoginText</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyRegisterFunctionality(pqr, pqr, pqr, pqr@test.com, 9999999990)">
-                  </a> <!-- verifyRegisterFunctionality(pqr, pqr, pqr, pqr@test.com, 9999999990) -->
-                  <span class="method-name">verifyRegisterFunctionality</span>
-                  <span class="parameters">(pqr, pqr, pqr, pqr@test.com, 9999999990)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyRegisterFunctionality(mona, mp1, mp1, mp@gmail.com, 9887665443)">
-                  </a> <!-- verifyRegisterFunctionality(mona, mp1, mp1, mp@gmail.com, 9887665443) -->
-                  <span class="method-name">verifyRegisterFunctionality</span>
-                  <span class="parameters">(mona, mp1, mp1, mp@gmail.com, 9887665443)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyRegisterFunctionality(abc, abc, abc, abc@test.com, 9876543210)">
-                  </a> <!-- verifyRegisterFunctionality(abc, abc, abc, abc@test.com, 9876543210) -->
-                  <span class="method-name">verifyRegisterFunctionality</span>
-                  <span class="parameters">(abc, abc, abc, abc@test.com, 9876543210)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifySignUpPageCaption">
-                  </a> <!-- verifySignUpPageCaption -->
-                  <span class="method-name">verifySignUpPageCaption</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
@@ -656,7 +1291,7 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.cloudmiracle.qa.extentreportlisteners.ExtentReportListener&quot;/&gt;
   &lt;/listeners&gt;
@@ -706,178 +1341,178 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(42);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyCmpListPageSizeElement')
+data.setCell(0, 1, 'verifyUserNameElement')
 data.setCell(0, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(0, 3, 17702);
+data.setCell(0, 3, 15054);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyEditBtnFunctionality')
+data.setCell(1, 1, 'verifyLogoutElement')
 data.setCell(1, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(1, 3, 17082);
+data.setCell(1, 3, 4930);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifytoAddNewCompanyDetailsFunctionality')
+data.setCell(2, 1, 'verifyTimeLeftElement')
 data.setCell(2, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(2, 3, 16975);
+data.setCell(2, 3, 3554);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifytoAddNewCompanyDetailsFunctionality')
-data.setCell(3, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(3, 3, 16940);
+data.setCell(3, 1, 'verifySignUPLinkFunctionality')
+data.setCell(3, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(3, 3, 3103);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyCmpDetailsAllTabElements')
-data.setCell(4, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(4, 3, 16557);
+data.setCell(4, 1, 'verifyLoginFunctionality')
+data.setCell(4, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(4, 3, 1269);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyCmpListTableContent')
-data.setCell(5, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(5, 3, 16287);
+data.setCell(5, 1, 'verifyLoginFunctionality')
+data.setCell(5, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(5, 3, 1100);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyCloseBtnElement')
-data.setCell(6, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(6, 3, 15965);
+data.setCell(6, 1, 'verifyForgotPWDLinkFunctionality')
+data.setCell(6, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(6, 3, 883);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyAddBtnFunctionality')
-data.setCell(7, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(7, 3, 15923);
+data.setCell(7, 1, 'verifyCmpLogoImg')
+data.setCell(7, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
+data.setCell(7, 3, 74);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyCmpDetailsAllButtonsElements')
-data.setCell(8, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(8, 3, 15908);
+data.setCell(8, 1, 'verifyForgetPWDLink')
+data.setCell(8, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(8, 3, 66);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifyCmpDetailsLegendsElements')
-data.setCell(9, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(9, 3, 15813);
+data.setCell(9, 1, 'verifySignUPText')
+data.setCell(9, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(9, 3, 50);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifyDeleteBtnFunctionality')
-data.setCell(10, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(10, 3, 15303);
+data.setCell(10, 1, 'verifyCmpLogoImg')
+data.setCell(10, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(10, 3, 46);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifyCmpListTotalPages')
-data.setCell(11, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(11, 3, 14602);
+data.setCell(11, 1, 'verifySignUpLink')
+data.setCell(11, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(11, 3, 44);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'verifyCmpListAllButtonsElement')
-data.setCell(12, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(12, 3, 14386);
+data.setCell(12, 1, 'verifyBackgroundImg')
+data.setCell(12, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(12, 3, 43);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'verifyUserNameElement')
-data.setCell(13, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(13, 3, 14025);
+data.setCell(13, 1, 'verifyBackgroundImg')
+data.setCell(13, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
+data.setCell(13, 3, 38);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'verifySearchElement')
-data.setCell(14, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(14, 3, 13911);
+data.setCell(14, 1, 'verifyLoginPageCaption')
+data.setCell(14, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(14, 3, 36);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'verifyCmpListTableHeader')
-data.setCell(15, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(15, 3, 13772);
+data.setCell(15, 1, 'verifySignUpPageCaption')
+data.setCell(15, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
+data.setCell(15, 3, 32);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'verifyCmpListPageCaption')
-data.setCell(16, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(16, 3, 13482);
+data.setCell(16, 1, 'verifyLoginLink')
+data.setCell(16, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
+data.setCell(16, 3, 29);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'verifyLogoutElement')
-data.setCell(17, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(17, 3, 4035);
+data.setCell(17, 1, 'verifyForgotPWDLinkEnable')
+data.setCell(17, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(17, 3, 28);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'verifyLogoutFunctionality')
-data.setCell(18, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(18, 3, 3992);
+data.setCell(18, 1, 'verifySignUpLinkEnable')
+data.setCell(18, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(18, 3, 27);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'verifyTimeLeftElement')
-data.setCell(19, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
-data.setCell(19, 3, 3394);
+data.setCell(19, 1, 'verifyLoginPageTitle')
+data.setCell(19, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
+data.setCell(19, 3, 7);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'verifySignUPLinkFunctionality')
-data.setCell(20, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
-data.setCell(20, 3, 3081);
+data.setCell(20, 1, 'verifyCmpListTotalPages')
+data.setCell(20, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(20, 3, 0);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'verifyRegisterFunctionality')
-data.setCell(21, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
-data.setCell(21, 3, 1520);
+data.setCell(21, 1, 'verifyCmpListPageCaption')
+data.setCell(21, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(21, 3, 0);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'verifyRegisterFunctionality')
-data.setCell(22, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
-data.setCell(22, 3, 1448);
+data.setCell(22, 1, 'verifyCmpListAllButtonsElement')
+data.setCell(22, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(22, 3, 0);
 data.setCell(23, 0, 23)
 data.setCell(23, 1, 'verifyRegisterFunctionality')
 data.setCell(23, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
-data.setCell(23, 3, 1432);
+data.setCell(23, 3, 0);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'verifyLoginFunctionality')
-data.setCell(24, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
-data.setCell(24, 3, 1229);
+data.setCell(24, 1, 'verifyCmpListPageSizeElement')
+data.setCell(24, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(24, 3, 0);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'verifyLoginFunctionality')
-data.setCell(25, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
-data.setCell(25, 3, 1118);
+data.setCell(25, 1, 'verifyDeleteBtnFunctionality')
+data.setCell(25, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(25, 3, 0);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'verifyForgotPWDLinkFunctionality')
-data.setCell(26, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
-data.setCell(26, 3, 841);
+data.setCell(26, 1, 'verifytoAddNewCompanyDetailsFunctionality')
+data.setCell(26, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(26, 3, 0);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'verifyCmpLogoImg')
-data.setCell(27, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
-data.setCell(27, 3, 55);
+data.setCell(27, 1, 'verifySearchElement')
+data.setCell(27, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(27, 3, 0);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'verifySignUpLink')
-data.setCell(28, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
-data.setCell(28, 3, 42);
+data.setCell(28, 1, 'verifyRegisterFunctionality')
+data.setCell(28, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
+data.setCell(28, 3, 0);
 data.setCell(29, 0, 29)
-data.setCell(29, 1, 'verifySignUPText')
-data.setCell(29, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
-data.setCell(29, 3, 37);
+data.setCell(29, 1, 'verifyLogoutFunctionality')
+data.setCell(29, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(29, 3, 0);
 data.setCell(30, 0, 30)
-data.setCell(30, 1, 'verifyBackgroundImg')
-data.setCell(30, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
-data.setCell(30, 3, 36);
+data.setCell(30, 1, 'verifyRegisterFunctionality')
+data.setCell(30, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
+data.setCell(30, 3, 0);
 data.setCell(31, 0, 31)
-data.setCell(31, 1, 'verifyCmpLogoImg')
-data.setCell(31, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
-data.setCell(31, 3, 36);
+data.setCell(31, 1, 'verifyLoginText')
+data.setCell(31, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
+data.setCell(31, 3, 0);
 data.setCell(32, 0, 32)
-data.setCell(32, 1, 'verifyForgetPWDLink')
-data.setCell(32, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
-data.setCell(32, 3, 35);
+data.setCell(32, 1, 'verifyCloseBtnElement')
+data.setCell(32, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(32, 3, 0);
 data.setCell(33, 0, 33)
-data.setCell(33, 1, 'verifyBackgroundImg')
-data.setCell(33, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
-data.setCell(33, 3, 33);
+data.setCell(33, 1, 'verifyCmpListTableContent')
+data.setCell(33, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(33, 3, 0);
 data.setCell(34, 0, 34)
-data.setCell(34, 1, 'verifyLoginLink')
-data.setCell(34, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
-data.setCell(34, 3, 31);
+data.setCell(34, 1, 'verifyEditBtnFunctionality')
+data.setCell(34, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(34, 3, 0);
 data.setCell(35, 0, 35)
-data.setCell(35, 1, 'verifyLoginPageCaption')
-data.setCell(35, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
-data.setCell(35, 3, 30);
+data.setCell(35, 1, 'verifyCmpDetailsAllTabElements')
+data.setCell(35, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(35, 3, 0);
 data.setCell(36, 0, 36)
-data.setCell(36, 1, 'verifySignUpLinkEnable')
-data.setCell(36, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
-data.setCell(36, 3, 29);
+data.setCell(36, 1, 'verifyCmpDetailsLegendsElements')
+data.setCell(36, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(36, 3, 0);
 data.setCell(37, 0, 37)
-data.setCell(37, 1, 'verifyForgotPWDLinkEnable')
-data.setCell(37, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
-data.setCell(37, 3, 27);
+data.setCell(37, 1, 'verifytoAddNewCompanyDetailsFunctionality')
+data.setCell(37, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(37, 3, 0);
 data.setCell(38, 0, 38)
-data.setCell(38, 1, 'verifySignUpPageCaption')
-data.setCell(38, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
-data.setCell(38, 3, 26);
+data.setCell(38, 1, 'verifyCmpListTableHeader')
+data.setCell(38, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(38, 3, 0);
 data.setCell(39, 0, 39)
-data.setCell(39, 1, 'verifyLoginText')
-data.setCell(39, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
-data.setCell(39, 3, 23);
+data.setCell(39, 1, 'verifyCmpDetailsAllButtonsElements')
+data.setCell(39, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(39, 3, 0);
 data.setCell(40, 0, 40)
-data.setCell(40, 1, 'verifyLoginPageTitle')
-data.setCell(40, 2, 'com.cloudmiracle.qa.testcases.LoginPageTestcases')
-data.setCell(40, 3, 21);
+data.setCell(40, 1, 'verifyLoginLinkEnable')
+data.setCell(40, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
+data.setCell(40, 3, 0);
 data.setCell(41, 0, 41)
-data.setCell(41, 1, 'verifyLoginLinkEnable')
-data.setCell(41, 2, 'com.cloudmiracle.qa.testcases.SignUpPageTestCases')
-data.setCell(41, 3, 20);
+data.setCell(41, 1, 'verifyAddBtnFunctionality')
+data.setCell(41, 2, 'com.cloudmiracle.qa.testcases.CompanyListPageTestcases')
+data.setCell(41, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -910,593 +1545,292 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyCmpLogoImg</span>
-                <span class="method-start">9936 ms</span>
+                <span class="method-start">11422 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9991 ms</span>
+                <span class="method-start">11496 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">10099 ms</span>
+                <span class="method-start">11601 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginPageTitle</span>
-                <span class="method-start">16779 ms</span>
+                <span class="method-start">18728 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">16800 ms</span>
+                <span class="method-start">18735 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">16888 ms</span>
+                <span class="method-start">18814 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyTimeLeftElement</span>
-                <span class="method-start">23552 ms</span>
+                <span class="method-start">27038 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">26946 ms</span>
+                <span class="method-start">30592 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cloudmiracle.qa.testcases.SignUpPageTestCases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">27088 ms</span>
+                <span class="method-start">30677 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyBackgroundImg</span>
-                <span class="method-start">35707 ms</span>
+                <span class="method-start">39680 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">35740 ms</span>
+                <span class="method-start">39718 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">35837 ms</span>
+                <span class="method-start">39852 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyCmpLogoImg</span>
-                <span class="method-start">41620 ms</span>
+                <span class="method-start">47378 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">41656 ms</span>
+                <span class="method-start">47425 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">41753 ms</span>
+                <span class="method-start">47516 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyUserNameElement</span>
-                <span class="method-start">48960 ms</span>
+                <span class="method-start">55472 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">62986 ms</span>
+                <span class="method-start">70526 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cloudmiracle.qa.testcases.SignUpPageTestCases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">63131 ms</span>
+                <span class="method-start">70666 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySignUpPageCaption</span>
-                <span class="method-start">79838 ms</span>
+                <span class="method-start">80864 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">79864 ms</span>
+                <span class="method-start">80896 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">79966 ms</span>
+                <span class="method-start">81062 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyBackgroundImg</span>
-                <span class="method-start">85566 ms</span>
+                <span class="method-start">91565 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">85603 ms</span>
+                <span class="method-start">91608 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">85687 ms</span>
+                <span class="method-start">91684 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLogoutElement</span>
-                <span class="method-start">92742 ms</span>
+                <span class="method-start">101494 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">96777 ms</span>
+                <span class="method-start">106424 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cloudmiracle.qa.testcases.SignUpPageTestCases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">96919 ms</span>
+                <span class="method-start">106560 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginLink</span>
-                <span class="method-start">105759 ms</span>
+                <span class="method-start">116147 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">105790 ms</span>
+                <span class="method-start">116177 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">105880 ms</span>
+                <span class="method-start">116320 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifyLoginPageCaption</span>
-                <span class="method-start">111342 ms</span>
+                <span class="method-start">120243 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">111373 ms</span>
+                <span class="method-start">120286 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setup</span>
-                <span class="method-start">111469 ms</span>
+                <span class="method-start">120429 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyCmpListPageCaption</span>
-                <span class="method-start">118700 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">132183 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cloudmiracle.qa.testcases.SignUpPageTestCases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setup</span>
-                <span class="method-start">132333 ms</span>
+                <span class="method-start">123815 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyLoginLinkEnable</span>
-                <span class="method-start">140960 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">140980 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">141117 ms</span>
+                <span class="method-start">131581 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySignUpLink</span>
-                <span class="method-start">146980 ms</span>
+                <span class="method-start">143557 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">147022 ms</span>
+                <span class="method-start">143601 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">147155 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifySearchElement</span>
-                <span class="method-start">154435 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">168347 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.SignUpPageTestCases</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">168490 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyLoginText</span>
-                <span class="method-start">177310 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">177333 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">177437 ms</span>
+                <span class="method-start">143748 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySignUpLinkEnable</span>
-                <span class="method-start">183283 ms</span>
+                <span class="method-start">156809 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">183312 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">183396 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyCmpListTableHeader</span>
-                <span class="method-start">190322 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">204094 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.SignUpPageTestCases</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">205073 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyRegisterFunctionality(abc, abc, abc, abc@test.com, 9876543210)</span>
-                <span class="method-start">213909 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">215430 ms</span>
+                <span class="method-start">156836 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">215527 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyRegisterFunctionality(pqr, pqr, pqr, pqr@test.com, 9999999990)</span>
-                <span class="method-start">224628 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">226076 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">226212 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyRegisterFunctionality(mona, mp1, mp1, mp@gmail.com, 9887665443)</span>
-                <span class="method-start">234850 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">236282 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">236417 ms</span>
+                <span class="method-start">157628 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySignUPText</span>
-                <span class="method-start">242068 ms</span>
+                <span class="method-start">166000 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">242105 ms</span>
+                <span class="method-start">166050 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">242216 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyCmpListTableContent</span>
-                <span class="method-start">249538 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">265826 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">265940 ms</span>
+                <span class="method-start">166194 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySignUPLinkFunctionality</span>
-                <span class="method-start">271989 ms</span>
+                <span class="method-start">176624 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">275070 ms</span>
+                <span class="method-start">179727 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">275156 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyCmpListPageSizeElement</span>
-                <span class="method-start">283264 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">300966 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">301101 ms</span>
+                <span class="method-start">179853 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyForgetPWDLink</span>
-                <span class="method-start">306860 ms</span>
+                <span class="method-start">187298 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">306895 ms</span>
+                <span class="method-start">187365 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">306980 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyCmpListTotalPages</span>
-                <span class="method-start">313885 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">328488 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">328591 ms</span>
+                <span class="method-start">187504 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyForgotPWDLinkEnable</span>
-                <span class="method-start">335207 ms</span>
+                <span class="method-start">202546 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">335234 ms</span>
+                <span class="method-start">202574 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">335324 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyCmpListAllButtonsElement</span>
-                <span class="method-start">341805 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">356191 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">356289 ms</span>
+                <span class="method-start">202673 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyForgotPWDLinkFunctionality</span>
-                <span class="method-start">362148 ms</span>
+                <span class="method-start">209168 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">362990 ms</span>
+                <span class="method-start">210051 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">363073 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyAddBtnFunctionality</span>
-                <span class="method-start">370073 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">385996 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.LoginPageTestcases</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">386183 ms</span>
+                <span class="method-start">210207 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginFunctionality(mp, mp)</span>
-                <span class="method-start">392106 ms</span>
+                <span class="method-start">216234 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">393335 ms</span>
+                <span class="method-start">217504 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">393423 ms</span>
+                <span class="method-start">217589 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginFunctionality(pc, 123)</span>
-                <span class="method-start">399193 ms</span>
+                <span class="method-start">224690 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">400311 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cloudmiracle.qa.testcases.CompanyListPageTestcases</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">400400 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyEditBtnFunctionality</span>
-                <span class="method-start">407678 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">424760 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">424860 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyDeleteBtnFunctionality</span>
-                <span class="method-start">432214 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">447518 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">447623 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyCmpDetailsAllTabElements</span>
-                <span class="method-start">454514 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">471071 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">471167 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyCmpDetailsLegendsElements</span>
-                <span class="method-start">477674 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">493487 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">493594 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyCmpDetailsAllButtonsElements</span>
-                <span class="method-start">500509 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">516417 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">516557 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyCloseBtnElement</span>
-                <span class="method-start">523909 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">539874 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">540039 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifytoAddNewCompanyDetailsFunctionality(3, TestCmp1, TC1, TCRH1, TCRH12)</span>
-                <span class="method-start">546763 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">563738 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">563835 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifytoAddNewCompanyDetailsFunctionality(4, TestCmp2, TC2, TCRH2, TCRH22)</span>
-                <span class="method-start">570949 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">587889 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">587994 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyLogoutFunctionality</span>
-                <span class="method-start">594638 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">598630 ms</span>
+                <span class="method-start">225791 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.cloudmiracle.qa.extentreportlisteners.ExtentReportListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.cloudmiracle.qa.testcases.SignUpPageTestCases">
+        <methods>
+          <include name="verifyLoginLinkEnable"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyLoginText"/>
+          <include name="verifyRegisterFunctionality"/>
+        </methods>
+      </class> <!-- com.cloudmiracle.qa.testcases.SignUpPageTestCases -->
+      <class name="com.cloudmiracle.qa.testcases.LoginPageTestcases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyLoginPageCaption"/>
+        </methods>
+      </class> <!-- com.cloudmiracle.qa.testcases.LoginPageTestcases -->
+      <class name="com.cloudmiracle.qa.testcases.CompanyListPageTestcases">
+        <methods>
+          <include name="verifyCmpDetailsAllTabElements"/>
+          <include name="verifyCmpListAllButtonsElement"/>
+          <include name="verifySearchElement"/>
+          <include name="verifyDeleteBtnFunctionality"/>
+          <include name="verifyLogoutFunctionality"/>
+          <include name="verifyCmpListPageCaption"/>
+          <include name="verifyCmpDetailsAllButtonsElements"/>
+          <include name="verifyCmpListTotalPages"/>
+          <include name="verifyCmpListPageSizeElement"/>
+          <include name="verifyCmpListTableContent"/>
+          <include name="verifyAddBtnFunctionality"/>
+          <include name="setup"/>
+          <include name="verifyCmpDetailsLegendsElements"/>
+          <include name="verifytoAddNewCompanyDetailsFunctionality"/>
+          <include name="verifyCmpListTableHeader"/>
+          <include name="tearDown"/>
+          <include name="verifyCloseBtnElement"/>
+          <include name="verifyEditBtnFunctionality"/>
+        </methods>
+      </class> <!-- com.cloudmiracle.qa.testcases.CompanyListPageTestcases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
